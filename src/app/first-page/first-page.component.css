@@ -1,0 +1,23 @@
+
+.first{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header{
+    width:30px;
+}
+i{
+    color:white;
+}
+ul{
+   padding-left:25px;
+   
+    }
+ul>li{
+    margin-top: 15px;
+}
+.side-menu{
+    margin-top:8px;
+}
