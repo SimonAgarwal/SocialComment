@@ -1,16 +1,17 @@
-<div>
+<div class="line-main">
+    <div class="d-flex justify-content-between header">
+        <p class="app-header">Applications Recieved</p>
+        <p>This Year</p>
+        <p>This week</p>
+        <p>Today</p>
+        <p>Downloaded Report</p>
+       <p> <i class="fas fa-ellipsis-v"></i></p>
+
+    </div>
     
     <div class="line-graph" style="width:300px;height:300px">
-        <div class="d-flex justify-content-between">
-            <p>Applications Recieved</p>
-            <p>This Year</p>
-            <p>This week</p>
-            <p>Today</p>
-            <p>Downloaded Report</p>
-           <p> <i class="fas fa-ellipsis-v"></i></p>
-    
-        </div>
-        <div class="line" style="display: block; width: 300px; height: 250px;">
+        
+        <div class="line" style="display: block; width: 400px; height: 250px;">
             <canvas baseChart
                  
             [datasets]="lineChartData"

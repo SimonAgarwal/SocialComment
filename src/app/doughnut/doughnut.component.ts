@@ -19,7 +19,9 @@ export class DoughnutComponent implements OnInit {
      },
      {
        borderColor:[
-         '#000000'
+        '#521482',
+        '#fa3d37',
+        '#5086fa'
        ]
      }
      ];

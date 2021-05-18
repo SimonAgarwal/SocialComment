@@ -1,0 +1,47 @@
+.camp-body-main{
+    margin-top:30px;
+    width:100%;
+   
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+.heading{
+    font-size: 11px;
+    font-weight:600;
+}
+.number{
+    font-size: 20px;
+    font-weight:650;
+}
+.percent{
+    font-size: 11px;
+    color:#5086fa;
+}
+div.camp-header{
+    font-size: 13px;
+    font-weight:600;
+    font-family: 'Roboto', sans-serif;
+}
+.color-red{
+    color:#fa3d37;
+}
+.waves-effect.waves-light.btn-large.btn-1{
+    background-color:#5086fa ;
+    margin-right:30px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.waves-effect.waves-light.btn-large.btn-2{
+    background-color:#fa3d37 ;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.camp-button{
+    margin-top: 30px;
+    
+}
+.camp-button>a{
+    font-size: 13px;
+}
+

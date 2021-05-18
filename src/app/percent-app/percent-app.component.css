@@ -1,0 +1,80 @@
+.percent-fill-1{
+    height:10px;
+    width:150px;
+    border-radius:7px;
+
+    background: -webkit-linear-gradient(left, #afb9ef 60%,#ffffff 60%);
+    background:    -moz-linear-gradient(left, #afb9ef 60%, #ffffff 60%);
+    background:     -ms-linear-gradient(left, #afb9ef 60%,#ffffff 60%);
+    background:      -o-linear-gradient(left, #afb9ef 60%,#ffffff 60%);
+    background:         linear-gradient(to right,#afb9ef 60%,#ffffff 60%);
+
+    border:1px solid black;
+}
+.percent-fill-2{
+    height:10px;
+    width:150px;
+    border-radius:7px;
+
+    background: -webkit-linear-gradient(left, #497df5 50%,#ffffff 50%);
+    background:    -moz-linear-gradient(left, #497df5 50%, #ffffff 50%);
+    background:     -ms-linear-gradient(left, #497df5 50%,#ffffff 50%);
+    background:      -o-linear-gradient(left, #497df5 50%,#ffffff 50%);
+    background:         linear-gradient(to right,#497df5 50%,#ffffff 50%);
+
+    border:1px solid black;
+}
+.percent-fill-3{
+    height:10px;
+    width:150px;
+    border-radius:7px;
+
+    background: -webkit-linear-gradient(left, #f02b2b 30%,#ffffff 30%);
+    background:    -moz-linear-gradient(left, #f02b2b 30%, #ffffff 30%);
+    background:     -ms-linear-gradient(left, #f02b2b 30%,#ffffff 30%);
+    background:      -o-linear-gradient(left, #f02b2b 30%,#ffffff 30%);
+    background:         linear-gradient(to right,#f02b2b 30%,#ffffff 30%);
+
+    border:1px solid black;
+}
+.percent-fill-4{
+    height:10px;
+    width:150px;
+    border-radius:7px;
+
+    background: -webkit-linear-gradient(left, #f598e7 10%,#ffffff 10%);
+    background:    -moz-linear-gradient(left, #f598e7 30%, #ffffff 10%);
+    background:     -ms-linear-gradient(left, #f598e7 10%,#ffffff 10%);
+    background:      -o-linear-gradient(left, #f598e7 10%,#ffffff 10%);
+    background:         linear-gradient(to right,#f598e7 10%,#ffffff 10%);
+
+    border:1px solid black;
+}
+.percent-fill-5{
+    height:10px;
+    width:150px;
+    border-radius:7px;
+
+    background: -webkit-linear-gradient(left, #521482 80%,#ffffff 80%);
+    background:    -moz-linear-gradient(left, #521482 80%, #ffffff 80%);
+    background:     -ms-linear-gradient(left, #521482 80%,#ffffff 80%);
+    background:      -o-linear-gradient(left, #521482 80%,#ffffff 80%);
+    background:         linear-gradient(to right,#521482 80%,#ffffff 80%);
+
+    border:1px solid black;
+}
+.center-2{
+    color:#e6e3e3
+}
+
+.center-2>p{
+    font-weight:500;
+    font-family: 'Source Code Pro', monospace;
+    margin-top:20px;
+    color:#e6e3e3;
+    font-size: 15px;
+}
+
+.d-flex.justify-content-between>p{
+    font-size:13px;
+}

@@ -3,6 +3,13 @@
     
     <div class="header">
         <div class="row header-row">
+            <div class="d-flex justify-content-between profile-main">
+                <i class="fas fa-bell"></i>
+                <p>John Boyer</p>
+                <div class="profile">
+                    <img src="../../assets/profile.jpg">
+                </div>
+               </div>
             
             <div class="col-md-8">
                 <div class="d-flex justify-content-between">
@@ -12,7 +19,7 @@
                         
                     </div>
                 <div>
-                    <a class="waves-effect waves-light btn"><i class="fas fa-plus"></i> Add</a>
+                    <a class="waves-effect waves-light btn" [routerLink]="['/second']"><i class="fas fa-plus"></i>Go To Second Page</a>
                 </div>
                 
                 </div>
@@ -21,6 +28,7 @@
             </div>
 
            <div class="col-md-4 search-col">
+              <!--profile-->
             <div class="search-box">
                 <i class="fas fa-search"> </i>
                 <input type="text" placeholder="Search for Application here">
@@ -50,30 +58,19 @@
             <div>
                 <div class="row">
                     <div class="col-md-8 center-1">
+                        <app-line-graph></app-line-graph>
                     </div>
                     <div class="col-md-4 center-2">
-                        <p>Total Applications</p>
-                        <div class="d-flex justify-content-between">
-                             <p style="color:#afb9ef">Application</p>
-                             <div class="percent-fill-1"></div>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                                <div class="percent-fill-2"></div>
-                               </div>
-                               <div class="d-flex justify-content-between">
-                                <p>Rejected</p>
-                                <div class="percent-fill-3"></div>
-                               </div>
-                               <div class="d-flex justify-content-between">
-                                <p>On Hold</p>
-                                <div class="percent-fill-4"></div>
-                               </div>
+                        <app-percent-app></app-percent-app>
                        
                     </div>
 
                 </div>
                 <div class="row">
                     <div class="col-md-8 center-1">
+                        <div class="d-flex justify-content-center">
+                            <app-campaigns></app-campaigns>
+                        </div>
                     </div>
                     <div class="col-md-4 center-2">
                         <p>Open positions By Department</p>
@@ -144,7 +141,29 @@
         </div>
     </div>
 </li>
-            </ul>
+<li>
+    <div class="d-flex justify-content-between">
+    <div class="part-1">
+        <p> <i class="far fa-user-circle"></i> Reha Scarlett<br/><span>Applied For</span><span>Post</span></p>
+    </div>
+    <div class="part-2">
+        <i class="far fa-envelope"></i>
+        <i class="fas fa-phone-square"></i>
+    </div>
+</div>
+</li>
+<li>
+    <div class="d-flex justify-content-between">
+    <div class="part-1">
+        <p> <i class="far fa-user-circle"></i> Elizabeth Hurton<br/><span>Applied For</span><span>Post</span></p>
+    </div>
+    <div class="part-2">
+        <i class="far fa-envelope"></i>
+        <i class="fas fa-phone-square"></i>
+    </div>
+</div>
+</li>
+    </ul>
 
 </div>
 </div>

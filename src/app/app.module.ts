@@ -9,6 +9,10 @@ import { StatsComponent } from './stats/stats.component';
 import { ChartsModule } from 'ng2-charts';
 import { LineGraphComponent } from './line-graph/line-graph.component';
 import { DoughnutComponent } from './doughnut/doughnut.component';
+import { PercentAppComponent } from './percent-app/percent-app.component';
+import { CampaignsComponent } from './campaigns/campaigns.component';
+import { SecondLeftComponent } from './second-left/second-left.component';
+import { SecondRightComponent } from './second-right/second-right.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { DoughnutComponent } from './doughnut/doughnut.component';
     SecondPageComponent,
     StatsComponent,
     LineGraphComponent,
-    DoughnutComponent
+    DoughnutComponent,
+    PercentAppComponent,
+    CampaignsComponent,
+    SecondLeftComponent,
+    SecondRightComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,103 @@
+.profile>img{
+    width:40px;
+    height:40px;
+   border-radius: 50%;
+}
+.right{
+    height:97%;
+    width:73%;
+    color:white;
+  
+    font-family: 'Recursive', sans-serif;
+    background-color: #141414;
+    border-radius: 15px;
+    margin-right:1%;
+    margin-top: 1%;
+}
+.Motivation{
+    margin-top:5%;
+}
+div.title{
+    margin-left: 5%;
+    
+}
+div.images{
+    margin-right:5%
+}
+div.title>h3{
+    font-weight: 650;
+    font-size: 35px;
+}
+.waves-effect.waves-light.btn{
+    background-color: #db427f;
+    
+}
+.menu{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 50%;
+}
+.sub-menu{
+    width:100%
+}
+#section-1{
+    width:35%;
+    height: 100%;
+    
+}
+#section-2{
+    width:65%;
+    height: 100%;
+   
+}
+div.image-section{
+    margin-top: 4%;
+    height:75%
+}
+.imagine{
+    border-radius: 10px;
+    width:90%;
+    margin-left: 5%;
+   padding-top: 3%;
+    height: 80%;
+    background-image: url('../../assets/motivate1.jpg');
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section-2-1{
+    border-radius: 10px;
+    
+   
+    height: 90%;
+    width:40%;
+    background-image: url('../../assets/comfort.png');
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section-2-2{
+    border-radius: 10px;
+   margin-right:10%;
+   
+    height: 90%;
+    width:40%;
+    background-image: url('../../assets/dream.jpg');
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section-2-3{
+    border-radius: 10px;
+   
+    height:45%;
+    width:90%;
+    background-image: url('../../assets/focus.jpg');
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.img-container{
+    height:50%
+}

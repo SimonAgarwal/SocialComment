@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,ViewChild,ElementRef } from '@angular/core';
 import { ChartDataSets, ChartOptions } from 'chart.js';
 import { Color, Label } from 'ng2-charts';
 
@@ -9,12 +9,13 @@ import { Color, Label } from 'ng2-charts';
   styleUrls: ['./line-graph.component.css']
 })
 export class LineGraphComponent implements OnInit {
+  @ViewChild('myCanvas') canvas: ElementRef;
   
   public lineChartColors: Color[] = [
     {
-      borderColor: '#f53659',
-      borderWidth:2,
-      backgroundColor: '#b04a5d',
+      borderColor: '#d15a56',
+      borderWidth:1,
+      backgroundColor: '#782422',
       
     },
   ];
@@ -29,6 +30,7 @@ export class LineGraphComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
 }
