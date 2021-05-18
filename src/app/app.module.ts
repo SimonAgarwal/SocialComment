@@ -28,7 +28,7 @@ import { SecondRightComponent } from './second-right/second-right.component';
     SecondRightComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     ChartsModule
   ],
