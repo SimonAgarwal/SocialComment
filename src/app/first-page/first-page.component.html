@@ -1,12 +1,36 @@
 
 <div class="first">
+    
     <div class="header">
-        <div>
-            <h3>Dashboard</h3>
+        <div class="row header-row">
+            
+            <div class="col-md-8">
+                <div class="d-flex justify-content-between">
+                   
+                    <div class="header-title">
+                        <p>Dashboard<br/><span class="title-sub">Monday,</span><span class="header-date">02 July 2020</span></p>
+                        
+                    </div>
+                <div>
+                    <a class="waves-effect waves-light btn"><i class="fas fa-plus"></i> Add</a>
+                </div>
+                
+                </div>
+
+
+            </div>
+
+           <div class="col-md-4 search-col">
+            <div class="search-box">
+                <i class="fas fa-search"> </i>
+                <input type="text" placeholder="Search for Application here">
+
+            </div>
+           </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-1">
+    <div class="body d-flex justify-content-between">
+        <div class=" side-parent">
             <ul class="side-menu" style="list-style-type:none">
                 <li><i class="fas fa-home"></i></li>
                 <li><i class="fas fa-chart-bar"></i></li>
@@ -19,11 +43,115 @@
                 <li class="end-icon"><i class="fas fa-cog"></i></li>
             </ul>
         </div>
-        <div class="col-md-7">
-            <p>M</p>
+        <div class="center-body">
+            <div class="d-flex justify-content-start">
+                <app-stats></app-stats>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-md-8 center-1">
+                    </div>
+                    <div class="col-md-4 center-2">
+                        <p>Total Applications</p>
+                        <div class="d-flex justify-content-between">
+                             <p style="color:#afb9ef">Application</p>
+                             <div class="percent-fill-1"></div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="percent-fill-2"></div>
+                               </div>
+                               <div class="d-flex justify-content-between">
+                                <p>Rejected</p>
+                                <div class="percent-fill-3"></div>
+                               </div>
+                               <div class="d-flex justify-content-between">
+                                <p>On Hold</p>
+                                <div class="percent-fill-4"></div>
+                               </div>
+                       
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-8 center-1">
+                    </div>
+                    <div class="col-md-4 center-2">
+                        <p>Open positions By Department</p>
+                        <app-doughnut></app-doughnut>
+                    </div>
+                   
+
+                </div>
+            </div>
+    
+
+</div>
+<div>
+    <div class="end-body">
+        <div>
+            <p class="greet">Hello John Boyer,<br/>You have 5 new applications Today!</p>
+            <div class="image">
+                
+                
+                <img src="../../assets/image2.jpg" style="padding-left:20px">
+            </div>
+            <div class="list">
+            <p class="new-app">New Applicants</p>
+            <ul style="list-style-type: none;">
+               
+                <li>
+                    <div class="d-flex justify-content-between">
+                    <div class="part-1">
+                      <p><i class="far fa-user-circle"></i> Rossie Mets<br/><span>Applied For</span><span>Post</span></p>
+                    </div>
+                    <!--<p><i class="far fa-user-circle"></i> Rossie Mets<br/><span>Applied For</span><span>Post</span></p>
+                    <p><i class="far fa-envelope"></i> <i class="fas fa-phone-square"></i></p>-->
+                    <div class="part-2">
+                       <p><i class="far fa-envelope"></i> <i class="fas fa-phone-square"></i></p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="d-flex justify-content-between">
+                <div class="part-1">
+                   <p><i class="far fa-user-circle"></i> James Scott<br/><span>Applied For</span><span>Post</span></p>
+                </div>
+                <div class="part-2">
+                    <i class="far fa-envelope"></i>
+                    <i class="fas fa-phone-square"></i>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="d-flex justify-content-between">
+            <div class="part-1">
+              <p>  <i class="far fa-user-circle"></i> Jamie Laurenson<br/><span>Applied For</span><span>Post</span></p>
+            </div>
+            <div class="part-2">
+                <i class="far fa-envelope"></i>
+                <i class="fas fa-phone-square"></i>
+            </div>
         </div>
-        <div class="col-md-4">
-            <p>M</p>
+    </li>
+    <li>
+        <div class="d-flex justify-content-between">
+        <div class="part-1">
+            <p> <i class="far fa-user-circle"></i> Danny Watson<br/><span>Applied For</span><span>Post</span></p>
+        </div>
+        <div class="part-2">
+            <i class="far fa-envelope"></i>
+            <i class="fas fa-phone-square"></i>
         </div>
     </div>
+</li>
+            </ul>
+
+</div>
+</div>
+</div>
+             
+</div>
+       
+       
+</div>
 </div>
