@@ -10,7 +10,8 @@
     "dev:ssr": "ng run SocialComment:serve-ssr",
     "serve:ssr": "node dist/SocialComment/server/main.js",
     "build:ssr": "ng build && ng run SocialComment:server",
-    "prerender": "ng run SocialComment:prerender"
+    "prerender": "ng run SocialComment:prerender",
+    "heroku-postbuild":"ng build --prod"
   },
   "private": true,
   "dependencies": {
