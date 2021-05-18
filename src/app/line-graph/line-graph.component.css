@@ -1,0 +1,12 @@
+.line-graph{
+    color:white
+}
+.line{
+    height: 300px;
+}
+canvas.chartjs-render-monitor{
+    height: 300px;
+}
+div.chartjs-size-monitor{
+    height: 300px;
+}

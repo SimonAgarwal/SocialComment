@@ -4,20 +4,188 @@
     height: 100vh;
     width: 100vw;
 }
-
+.main-row{
+    height: 95%;
+    position:relative;
+}
+.waves-effect.waves-light.btn{
+    background-color: #5086fa;
+    color:white;
+    text-align: center;
+}
 .header{
-    width:30px;
+    width:100%;
 }
 i{
     color:white;
 }
 ul{
-   padding-left:25px;
+   padding-left:30px;
+
    
     }
 ul>li{
     margin-top: 15px;
 }
 .side-menu{
-    margin-top:8px;
+    margin-top:20px;
+    
+}
+
+.side-parent{
+    width:5%;
+    border-right: 0.5px solid #2b2b2b;
+    margin:0px;
+}
+.end-icon{
+    position: absolute;
+    bottom: 15px;
+}
+.body{
+    height:80vh;
+}
+.header-title{
+    font-family: 'Source Code Pro', monospace;
+    color:white;
+    font-size:1.3em;
+   margin-left: 80px;
+}
+.header-row{
+    padding-top:25px;
+}
+.title-sub{
+    font-size:15px;
+}
+.header-date{
+    font-size: 15px;
+    color:#3d94eb;
+}
+.header-space{
+    width:5%;
+    height:95.5px;
+    margin-right: 0px;
+}
+.search-box>input{
+    height:30px;
+    width:200px;
+    
+}
+.fas.fa-search{
+    padding-right: 7px;
+    padding-left:58px;
+}
+
+.col-md-8.center-1{
+    border:2px solid white;
+    height:250px;
+   
+}
+.col-md-4.center-2{
+    border:1px solid #1f1e1e;
+    height:250px;
+
+}
+.end-body{
+width:360px;
+font-family: 'Roboto', sans-serif;
+font-size:15px;
+color:#e6e3e3;
+
+border:1px solid #1f1e1e
+}
+img{
+    height:200px;
+    width:250px;
+    margin-bottom:8px;
+}
+.greet{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 500;
+    font-family: 'Source Code Pro', monospace;
+}
+.image{
+    margin-left:15%;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+.new-app{
+    padding-left:18px;
+    font-weight:500;
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 35px;
+}
+.part-2{
+    margin-right:10px;
+    padding-right:10px;
+    font-size:15px
+}
+.part-1>p>span{
+    color:#517ebd;
+    font-size: 12px;
+}
+.far.fa-envelope{
+    margin-right: 15px;
+}
+.center-2>p{
+    font-weight:500;
+    font-family: 'Source Code Pro', monospace;
+    margin-top:20px;
+    color:#e6e3e3;
+    font-size: 12px;
+}
+.percent-fill-1{
+    height:10px;
+    width:150px;
+    border-radius:7px;
+
+    background: -webkit-linear-gradient(left, #afb9ef 75%,#ffffff 75%);
+    background:    -moz-linear-gradient(left, #afb9ef 75%, #ffffff 75%);
+    background:     -ms-linear-gradient(left, #afb9ef 75%,#ffffff 75%);
+    background:      -o-linear-gradient(left, #afb9ef 75%,#ffffff 75%);
+    background:         linear-gradient(to right,#afb9ef 75%,#ffffff 75%);
+
+    border:1px solid black;
+}
+.percent-fill-2{
+    height:10px;
+    width:150px;
+    border-radius:7px;
+
+    background: -webkit-linear-gradient(left, #497df5 50%,#ffffff 50%);
+    background:    -moz-linear-gradient(left, #497df5 50%, #ffffff 50%);
+    background:     -ms-linear-gradient(left, #497df5 50%,#ffffff 50%);
+    background:      -o-linear-gradient(left, #497df5 50%,#ffffff 50%);
+    background:         linear-gradient(to right,#497df5 50%,#ffffff 50%);
+
+    border:1px solid black;
+}
+.percent-fill-3{
+    height:10px;
+    width:150px;
+    border-radius:7px;
+
+    background: -webkit-linear-gradient(left, #f02b2b 30%,#ffffff 30%);
+    background:    -moz-linear-gradient(left, #f02b2b 30%, #ffffff 30%);
+    background:     -ms-linear-gradient(left, #f02b2b 30%,#ffffff 30%);
+    background:      -o-linear-gradient(left, #f02b2b 30%,#ffffff 30%);
+    background:         linear-gradient(to right,#f02b2b 30%,#ffffff 30%);
+
+    border:1px solid black;
+}
+.percent-fill-4{
+    height:10px;
+    width:150px;
+    border-radius:7px;
+
+    background: -webkit-linear-gradient(left, #f598e7 10%,#ffffff 10%);
+    background:    -moz-linear-gradient(left, #f598e7 30%, #ffffff 10%);
+    background:     -ms-linear-gradient(left, #f598e7 10%,#ffffff 10%);
+    background:      -o-linear-gradient(left, #f598e7 10%,#ffffff 10%);
+    background:         linear-gradient(to right,#f598e7 10%,#ffffff 10%);
+
+    border:1px solid black;
+}
+.center-2{
+    color:#e6e3e3
 }

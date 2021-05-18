@@ -1,0 +1,27 @@
+<div>
+    
+    <div class="line-graph" style="width:300px;height:300px">
+        <div class="d-flex justify-content-between">
+            <p>Applications Recieved</p>
+            <p>This Year</p>
+            <p>This week</p>
+            <p>Today</p>
+            <p>Downloaded Report</p>
+           <p> <i class="fas fa-ellipsis-v"></i></p>
+    
+        </div>
+        <div class="line" style="display: block; width: 300px; height: 250px;">
+            <canvas baseChart
+                 
+            [datasets]="lineChartData"
+            [labels]="lineChartLabels"
+            
+            [colors]="lineChartColors"
+            [legend]="lineChartLegend"
+            [chartType]="lineChartType"
+            [plugins]="lineChartPlugins"
+            ></canvas>
+          </div>
+    </div>
+</div>
+

@@ -1,0 +1,46 @@
+
+.card-body{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    
+}
+.card{
+    background-color: black;
+    border:1px solid #2b2b2b;
+    border-radius:10px;
+    height: 140px;
+    width:270px;
+}
+.heading{
+    font-size: 13px;
+    font-weight:600;
+}
+.number{
+    font-size: 20px;
+    font-weight:650;
+}
+.percent{
+    font-size: 11px;
+    color:#521482;
+}
+.card-2{
+    background-color: #5086fa;
+    color:white;
+    border:none;
+}
+.percent-2{
+    color:white;
+}
+.percent-3{
+    color:#fa3d37;
+}
+#myChart{
+    height:100px;
+    width:100px;
+    display:block;
+}
+
+div.dough{
+    height:125px;
+}
+
