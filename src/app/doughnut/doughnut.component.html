@@ -1,4 +1,4 @@
-<div class="graph-dough">
+<!--<div class="graph-dough">
     <div class="dough" style="display: block; width:350px; height: 300px;">
         <canvas baseChart
               height="10vh" width="20vw"
@@ -7,4 +7,16 @@
                     [chartType]="doughnutChartType2"
                     ></canvas>
       </div>
+</div>-->
+
+<div>
+      <google-chart #chart  
+   [title]="title"  
+   [type]="type"  
+   [data]="data"  
+   
+   [options]="options"  
+   [width]="width"  
+   [height]="height">  
+</google-chart>  
 </div>

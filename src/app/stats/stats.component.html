@@ -18,14 +18,16 @@
             <!--graph-->
             <div class="right-side">
                 <div class="graph1">
-                    <div class="dough" style="display: block; width: 190px; height: 100px;">
-                        <canvas baseChart
-                              height="10vh" width="20vw"
-                                    [data]="doughnutChartData1"
-                                    [colors]="doughnutColors1"
-                                    [chartType]="doughnutChartType1"
-                                    ></canvas>
-                      </div>
+                    <google-chart #chart  
+                                
+                                [type]="type"  
+                                [data]="data"  
+                                
+                                [options]="options"  
+                                [width]="width"  
+                            [height]="height">  
+                            </google-chart>
+                  
                 </div>
 
             </div>
@@ -53,14 +55,16 @@
                     <!--graph-->
     <div class="right-side">
         <div class="graph1">
-            <div class="dough" style="display: block; width: 190px; height: 100px;">
-                <canvas baseChart
-                      height="10vh" width="20vw"
-                            [data]="doughnutChartData2"
-                            [colors]="doughnutColors2"
-                            [chartType]="doughnutChartType2"
-                            ></canvas>
-              </div>
+            <google-chart #chart  
+                                
+            [type]="type2"  
+            [data]="data2"  
+            
+            [options]="options2"  
+            [width]="width2"  
+        [height]="height2">  
+        </google-chart>
+          
         </div>
 
     </div>
@@ -87,14 +91,16 @@
                   <!--graph-->
                   <div class="right-side">
                     <div class="graph1">
-                        <div class="dough" style="display: block; width: 190px; height: 100px;">
-                            <canvas baseChart
-                                  height="10vh" width="20vw"
-                                        [data]="doughnutChartData3"
-                                        [colors]="doughnutColors3"
-                                        [chartType]="doughnutChartType3"
-                                        ></canvas>
-                          </div>
+                        <google-chart #chart  
+                                
+                        [type]="type3"  
+                        [data]="data3"  
+                        
+                        [options]="options3"  
+                        [width]="width3"  
+                    [height]="height3">  
+                    </google-chart>
+                       
                     </div>
 
             </div>

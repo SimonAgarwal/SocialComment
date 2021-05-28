@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Chart, ChartOptions } from 'chart.js';
+
 
 
 @Component({
@@ -9,6 +9,77 @@ import { Chart, ChartOptions } from 'chart.js';
   styleUrls: ['./stats.component.css']
 })
 export class StatsComponent implements OnInit {
+
+ 
+  type = 'PieChart';  
+  data = [  
+     ['Name1', 30],  
+     ['Name2', 70],  
+     
+      
+  ];  
+  columnNames = ['Name', 'Percentage'];  
+  options = {    
+    pieHole:0.7  ,
+    backgroundColor:'black',
+    titleTextStyle:
+    {
+      color:'white',
+      fontSize:14
+    },
+    colors:['grey','#521482']
+  };  
+  width = 150;  
+  height = 100; 
+
+
+  //second
+  type2 = 'PieChart';  
+  data2 = [  
+     ['Name1', 40],  
+     ['Name2', 60],  
+     
+      
+  ];  
+  columnNames2 = ['Name', 'Percentage'];  
+  options2 = {    
+    pieHole:0.7  ,
+    backgroundColor:'#5086fa',
+    titleTextStyle:
+    {
+      color:'white',
+      fontSize:14
+    },
+    colors:['#5086fa','white']
+  };  
+  width2= 150;  
+  height2 = 100; 
+
+  //third
+
+  type3 = 'PieChart';  
+  data3 = [  
+     ['Name1', 60],  
+     ['Name2', 40],  
+     
+      
+  ];  
+  columnNames3 = ['Name', 'Percentage'];  
+  options3 = {    
+    pieHole:0.7  ,
+    backgroundColor:'black',
+    titleTextStyle:
+    {
+      color:'white',
+      fontSize:14
+    },
+    colors:['grey','red']
+  };  
+  width3= 150;  
+  height3 = 100; 
+
+
+
   //first graph
   //public doughnutChartLabels = ['70', '30'];
   public doughnutChartData1 = [70, 30];

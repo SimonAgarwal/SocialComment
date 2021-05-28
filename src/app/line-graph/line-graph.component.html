@@ -9,20 +9,17 @@
 
     </div>
     
-    <div class="line-graph" style="width:300px;height:300px">
+    <div class="line-graph">
+        <google-chart #chart  
+                                
+        [type]="type"  
+        [data]="data"  
         
-        <div class="line" style="display: block; width: 400px; height: 250px;">
-            <canvas baseChart
-                 
-            [datasets]="lineChartData"
-            [labels]="lineChartLabels"
-            
-            [colors]="lineChartColors"
-            [legend]="lineChartLegend"
-            [chartType]="lineChartType"
-            [plugins]="lineChartPlugins"
-            ></canvas>
-          </div>
+        [options]="options"  
+        [width]="width"  
+    [height]="height">  
+    </google-chart>
+     
     </div>
 </div>
 
